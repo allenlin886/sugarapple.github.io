@@ -603,7 +603,7 @@ section{
 }
 
 .order .row form textarea{
-        width: 100%;
+        width: 96%;
         resize: none;
         height:220px;
         margin:5px
@@ -612,7 +612,7 @@ section{
 .order .row form .btn3{
         font-size: 30px;
         padding: 10px;
-        width: 100%;
+        width: 98%;
         border-radius: 20px;
         color:rgb(56, 121, 50);
         display: flex;
