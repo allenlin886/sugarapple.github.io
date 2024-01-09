@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!--CSS連結-->
         <link rel="stylesheet" href="css/style.css">
+    <!--AOS animation--> 
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     
 </head>
 <body>
@@ -42,7 +45,7 @@
         <!--第三區品種介紹-->
         <section class="category" id="category">
                 <h1 class="heading">林家釋迦<span>品種</span></h1>
-                <div class="box-container">
+                <div class="box-container" data-aos="fade-right">
                         <div class="box">
                                 <img class="image" src="images/大目釋迦.png" alt="大目釋迦">
                                 <div class="content">
@@ -77,7 +80,7 @@
         <!--第四區栽種流程-->
         <section class="protocol" id="protocol">
                 <h1 class="heading">林家釋迦<span>栽種流程</span></h1>
-                <div class="box-container">
+                <div class="box-container" data-aos="fade-left">
                         <div class="box">
                                 <img class="image" src="images/理光頭2.jpg" alt="理光頭">
                                 <div class="content">
@@ -135,7 +138,7 @@
         <!--第五區圖片-->
         <section class="gallery" id="gallery">
                 <h1 class="heading">林家釋迦<span>照片集</span></h1>
-                <div class="box-container">
+                <div class="box-container" data-aos="flip-left">
                         <div class="box">
                                 <img src="images/除草1.jpg" alt="除草">
                                 <div class="content">
@@ -177,7 +180,7 @@
         </section>                
 
         <section class="gallery2" id="gallery2">               
-                <div class="box-container">
+                <div class="box-container" data-aos="flip-left">
                                 <div class="box">
                                         <img src="images/採收1.jpg" alt="採收">
                                         <div class="content">
@@ -221,7 +224,7 @@
         </section>
 
         <section class="gallery3" id="gallery3">               
-                <div class="box-container">
+                <div class="box-container" data-aos="flip-left">
                                 <div class="box">
                                         <img src="images/裝箱宅配2.jpg" alt="裝箱宅配">
                                         <div class="content">
@@ -267,7 +270,7 @@
         <!--第六區評論-->
         <section class="review" id="review">
                 <h1 class="heading">林家釋迦<span>評論</span></h1>
-                <div class="box-container">
+                <div class="box-container" data-aos="flip-right">
                         <div class="box">
                                 <h3>匿名者1</h3>
                                 <div class="stars">
@@ -405,6 +408,11 @@
 
         <!--回上層按鈕-->
         <a href="#home" class="fas fa-angle-up" id="scroll-up"></a>
+        
+        <!--AOS animation啟動-->
+        <script>
+                AOS.init();
+        </script>
 
 </body>
 
