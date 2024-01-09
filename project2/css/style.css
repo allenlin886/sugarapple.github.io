@@ -8,8 +8,6 @@
         text-decoration: none;
         transition:0.4s all linear;
         font-size: 22px;
-        gtx-trans{display: none};
-        overflow-x: hidden;
 }
 
 
@@ -660,8 +658,7 @@ section{
         /*RWD 手機板*/
 
         
-        @media (max-width:600px){
-                *{overflow-x: hidden;}
+        @media (max-width:600px){                
                 /*第一區header*/
                 #menu-bar{
                         display: initial;
