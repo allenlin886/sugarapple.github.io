@@ -294,7 +294,7 @@
                                 <form id="myform" name="myform" action="#" method="post">
                                         <div class="inputbox">
                                                 <input id="name" name="name" type="text" placeholder="收件人">
-                                                <input id="email" name="email" type="address" placeholder="收件地址">
+                                                <input id="address" name="address" type="text" placeholder="收件地址">
                                         </div>
                                         <div class="inputbox">
                                                 <input id="number" name="number" type="number" placeholder="電話">
@@ -331,10 +331,10 @@
 
                                         function formValidation() {
                                                 const name = document.getElementById('name').value.trim();
-                                                const email = document.getElementById('email').value.trim();
+                                                const email = document.getElementById('address').value.trim();
                                                 const number = document.getElementById('number').value.trim();
                                                 const contents = document.getElementById('contents').value.trim();
-                                                        if (name === '' && email === '' && number === '' && contents === '') {
+                                                        if (name === '' && address === '' && number === '' && contents === '') {
                                                                 alert("請輸入訂購資訊");
                                                                 return false;
                                                         } else if (name === '') {
